@@ -1,0 +1,30 @@
+{
+  "name": "microscape",
+  "version": "0.0.1",
+  "description": "Micro Sc(r)ape the Web!",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/etabits/node-microscape.git"
+  },
+  "keywords": [
+    "scrape"
+  ],
+  "author": "Hasan Arous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etabits/node-microscape/issues"
+  },
+  "dependencies": {
+    "request": ">=2.27.0",
+    "htmlparser2": ">=3.3.0",
+    "CSSselect": ">=0.3.11",
+    "async": ">=0.2.9",
+    "underscore": "*",
+    "html-entities": "*",
+    "Simple-Cache": "*"
+  }
+}
